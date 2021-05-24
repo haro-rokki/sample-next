@@ -17,12 +17,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "baseUrl": "src",
     "downlevelIteration": true
   },
   "include": [
-    "next-env.d.ts", "**/*.ts", "**/*.tsx"
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules"
